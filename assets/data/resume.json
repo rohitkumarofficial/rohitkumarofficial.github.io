@@ -1,4 +1,5 @@
 {
+  "openToWork": true,
   "personal": {
     "name": "Rohit Kumar",
     "role": "UI Lead | Senior Full Stack Engineer (Angular & .NET)",
@@ -9,9 +10,137 @@
     "linkedin": "https://www.linkedin.com/in/rkumar06/",
     "website": "rohitkumarofficial.github.io"
   },
-  "openToWork": true,
-  "summary": "...",
+  "summary": "UI Lead | Senior Full Stack Engineer (Angular & .NET) with 8+ years of experience building scalable enterprise web applications using Angular (v12–18+), TypeScript, JavaScript, and RxJS. Expert in frontend architecture, UI performance optimization, and full-stack development across Angular and .NET Core ecosystems with strong REST API design and integration expertise. Led migration of 15+ enterprise applications to an Nx Monorepo with Micro-Frontend architecture, improving performance by up to 40% while maintaining 85%+ test coverage. Proven engineering leader who has mentored 30+ developers, led architecture reviews, and established coding standards within Agile/Scrum teams.",
+  "experiences": [
+    {
+      "id": "saksoft-ui-lead",
+      "title": "UI Lead",
+      "company": "Saksoft Ltd",
+      "location": "Bangalore, India",
+      "startDate": "April 2025",
+      "endDate": "Present",
+      "current": true,
+      "highlights": [
+        "Improved application performance by ~40% across enterprise Angular apps by implementing Angular Signals, zoneless change detection, OnPush strategies, and lazy loading — directly improving Core Web Vitals and UI responsiveness.",
+        "Modernized legacy Angular modules to Standalone Components and Signals-based state management, reducing complexity and accelerating feature delivery cycles.",
+        "Owned full-stack feature delivery using .NET Core Web APIs, applying Specification Pattern and claims-based authorization to unblock frontend progress without backend dependency.",
+        "Maintained 85%+ automated test coverage (Jest + Playwright), reducing regression risk and improving release confidence across enterprise-critical modules.",
+        "Established shared Angular libraries and architecture standards adopted across multiple enterprise products, scaling engineering consistency across teams.",
+        "Mentored frontend engineers through architecture reviews and coaching on Angular, RxJS, and performance engineering best practices."
+      ],
+      "skills": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "Angular Signals",
+        ".NET Core",
+        "Jest",
+        "Playwright"
+      ]
+    },
+    {
+      "id": "dreamorbit-senior-ui-developer",
+      "title": "Senior UI Developer",
+      "company": "Dreamorbit Softech Pvt Ltd (Acquired by Saksoft)",
+      "location": "Bangalore, India",
+      "startDate": "December 2019",
+      "endDate": "March 2025",
+      "current": false,
+      "summary": "Led full platform modernization from legacy ASP.NET monolith to Angular + .NET Core, architecting the engineering foundation for 15+ enterprise applications serving 10,000+ users.",
+      "highlights": [
+        "Delivered a full platform modernization in 1 year — migrating a legacy ASP.NET monolith to Angular (v12+) + .NET Core, establishing the engineering foundation for all subsequent enterprise products.",
+        "Designed the Angular + DevExtreme + OData architecture standard adopted across multiple teams, powering 15+ enterprise applications serving 10,000+ users in compliance and financial domains.",
+        "Led the migration of 15+ Angular apps into an Nx Monorepo with Webpack Module Federation Micro Frontend architecture, improving scalability, maintainability, and independent deployment.",
+        "Built high-performance, data-intensive UI modules — enterprise grids, dashboards, and analytics visualizations — for large-scale datasets using DevExtreme, Angular Material, RxJS, and OData APIs.",
+        "Designed a centralized permission system enabling secure, consistent access control across all micro frontend modules.",
+        "Mentored 30+ developers on Angular architecture and micro-frontend design; drove team-wide code review standards and engineering best practices."
+      ],
+      "skills": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        ".NET Core",
+        "Nx Monorepo",
+        "Micro Frontend",
+        "DevExtreme",
+        "OData",
+        "Webpack"
+      ]
+    },
+    {
+      "id": "mindtree-senior-software-engineer",
+      "title": "Senior Software Engineer",
+      "company": "Mindtree Ltd",
+      "location": "Bangalore, India",
+      "startDate": "December 2018",
+      "endDate": "December 2019",
+      "current": false,
+      "summary": "Engineered core modules for a Mutual Fund and Share Market platform processing $10M+ daily transactions, delivering high-performance dashboards and workflows for 5,000+ financial advisors.",
+      "highlights": [
+        "Engineered core modules for Mutual Fund and Share Market platform processing $10M+ daily transactions, utilizing Angular 10, Java Spring Boot, and REST APIs.",
+        "Built intuitive dashboards with 15+ interactive charts and data visualizations using Chart.js and D3.js, improving user engagement by 60%.",
+        "Created a user onboarding workflow reducing new user setup time by 50% through streamlined multi-step forms and validation.",
+        "Led module-level development for portfolio management features used by 5,000+ financial advisors and investors.",
+        "Collaborated with backend team to optimize API performance, reducing average response time from 800ms to 250ms.",
+        "Mentored junior engineers on Angular fundamentals, coding standards, and best practices — contributing to a 40% improvement in code review pass rate."
+      ],
+      "skills": [
+        "Angular",
+        "TypeScript",
+        "Java",
+        "Spring Boot",
+        "REST APIs",
+        "Chart.js",
+        "D3.js",
+        "RxJS"
+      ]
+    },
+    {
+      "id": "fernlink-software-engineer",
+      "title": "Software Engineer",
+      "company": "Fernlink Technologies Pvt Ltd",
+      "location": "Bangalore, India",
+      "startDate": "April 2017",
+      "endDate": "November 2018",
+      "current": false,
+      "summary": "Started as a UI Developer and self-initiated Angular learning — becoming sole developer within 6 months, leading a full AngularJS-to-Angular migration, PWA implementation, and a real-time IoT monitoring dashboard for industrial equipment.",
+      "highlights": [
+        "Joined as a UI Developer building interfaces in HTML/CSS, then self-initiated learning of AngularJS — becoming the sole developer responsible for maintaining and evolving the application within 6 months.",
+        "Led the full migration of the AngularJS application to Angular 2+, introducing Angular Material as the UI framework and modernizing the codebase architecture.",
+        "Implemented Progressive Web App (PWA) capabilities for the platform, followed by an Angular-based native app — extending the product's reach across web and mobile.",
+        "Designed and built a real-time IoT monitoring dashboard for industrial rice mill and solar plant equipment, streaming live data from 50+ devices using Angular 8, Socket.IO, Chart.js, and Node.js — displaying power usage, machine health, and temperature metrics."
+      ],
+      "skills": [
+        "Angular",
+        "AngularJS",
+        "TypeScript",
+        "Node.js",
+        "Socket.IO",
+        "Chart.js",
+        "PWA",
+        "Angular Material",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": "rorko-web-developer-intern",
+      "title": "Web Developer Intern",
+      "company": "Rorko Technologies Pvt Ltd",
+      "location": "Bangalore, India",
+      "startDate": "June 2016",
+      "endDate": "March 2017",
+      "current": false,
+      "summary": "Delivered 10+ responsive websites and contributed to UI/UX enhancements and SEO optimization for client projects.",
+      "highlights": [
+        "Delivered 10+ responsive websites using HTML5, CSS3, JavaScript, and WordPress, improving mobile accessibility by 70%.",
+        "Contributed to UI/UX enhancements and SEO optimization, increasing organic traffic by 45% for client websites.",
+        "Implemented custom WordPress themes and plugins based on project requirements, reducing development time by 30%.",
+        "Utilized responsive design principles and cross-browser compatibility testing to ensure consistent user experience across devices."
+      ],
+      "skills": ["HTML5", "CSS3", "JavaScript", "WordPress"]
+    }
+  ],
   "skills": [],
-  "experience": [],
   "education": []
 }
