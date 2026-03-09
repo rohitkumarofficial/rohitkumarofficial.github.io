@@ -11,5 +11,12 @@ import { Data } from '../services/data';
 })
 export class ProfileHeading {
   private dataService = inject(Data);
-  profile = computed(() => this.dataService.resumeDetails());
+  profile = computed(() => this.dataService.resumeDetails()?.personal);
+  
+  link(type: 'linkedin' | 'github'): void {
+    const url = this.profile()?.[type];
+    if (url) {
+      window.open(url, '_blank');
+    }
+  }
 }

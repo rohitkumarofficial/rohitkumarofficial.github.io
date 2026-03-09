@@ -1,30 +1,32 @@
-<mat-card appearance="outlined">
-  <div class="name">Rohit Kumar</div>
-  <div class="role">UI Lead | Senior Full Stack Engineer (Angular & .NET)</div>
-  <div class="contact-info">
-    <div class="email">
-      <mat-icon>email</mat-icon>
-      <span>rohit.kumar@example.com</span>
-    </div>
+@if (profile()) {
+  <mat-card appearance="outlined">
+    <div class="name">{{ profile().name }}</div>
+    <div class="role">UI Lead | Senior Full Stack Engineer (Angular & .NET)</div>
+    <div class="contact-info">
+      <div class="email">
+        <mat-icon>email</mat-icon>
+        <span>{{ profile().email }}</span>
+      </div>
 
-    <div class="mobile">
-      <mat-icon>phone</mat-icon>
-      <span>+1 234 567 8901</span>
-    </div>
+      <div class="mobile">
+        <mat-icon>phone</mat-icon>
+        <span>{{ profile().phone }}</span>
+      </div>
 
-    <div class="address">
-      <mat-icon>home</mat-icon>
-      <span>123 Main St, Anytown, USA</span>
+      <div class="address">
+        <mat-icon>home</mat-icon>
+        <span>{{ profile().location }}</span>
+      </div>
     </div>
-  </div>
-  <div class="link">
-    <button matButton="tonal">
-      <mat-icon>link</mat-icon>
-      <span>Linkedin</span>
-    </button>
-    <button matButton="tonal">
-      <mat-icon>code</mat-icon>
-      <span>Github</span>
-    </button>
-  </div>
-</mat-card>
+    <div class="link">
+      <button matButton="tonal" (click)="link('linkedin')">
+        <mat-icon>link</mat-icon>
+        <span>Linkedin</span>
+      </button>
+      <button matButton="tonal" (click)="link('github')">
+        <mat-icon>code</mat-icon>
+        <span>Github</span>
+      </button>
+    </div>
+  </mat-card>
+}
