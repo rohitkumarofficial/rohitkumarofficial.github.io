@@ -4,9 +4,11 @@ import { Data } from './services/data';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { ProfileHeading } from './profile-heading/profile-heading';
 import { MatCardModule } from '@angular/material/card';
+import { About } from './about/about';
+import { Experience } from './experience/experience';
 @Component({
   selector: 'app-root',
-  imports: [Header, ProfileHeading, MatCardModule],
+  imports: [Header, ProfileHeading, MatCardModule, About, Experience],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })

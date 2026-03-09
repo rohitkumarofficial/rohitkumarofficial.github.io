@@ -1,0 +1,54 @@
+@if (experiences().length > 0) {
+  <mat-card appearance="outlined">
+    <h2>
+      <mat-icon>work</mat-icon>
+      Work Experience
+    </h2>
+
+    <div class="timeline">
+      @for (exp of experiences(); track exp.id) {
+        <div class="timeline-item">
+          <div class="timeline-dot" [class.active]="exp.current"></div>
+          <div class="timeline-card">
+            <div class="card-header">
+              <div class="card-left">
+                <h3 class="job-title">{{ exp.title }}</h3>
+                <span class="company">{{ exp.company }}</span>
+              </div>
+              <div class="card-right">
+                <span class="meta">
+                  <mat-icon>calendar_today</mat-icon>
+                  {{ exp.startDate }} – {{ exp.endDate }}
+                </span>
+                <span class="meta">
+                  <mat-icon>location_on</mat-icon>
+                  {{ exp.location }}
+                </span>
+              </div>
+            </div>
+
+            <p class="summary">{{ exp.summary }}</p>
+
+            @if (exp.highlights?.length) {
+              <ul class="highlights">
+                @for (point of exp.highlights; track point) {
+                  <li>
+                    {{ point }}
+                  </li>
+                }
+              </ul>
+            }
+
+            @if (exp.skills?.length) {
+              <div class="skills-chips">
+                @for (tag of exp.skills; track tag) {
+                  <span class="chip">{{ tag }}</span>
+                }
+              </div>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </mat-card>
+}

@@ -1,16 +1,17 @@
 mat-card {
-  margin: 2rem 5rem;
-  padding: 1rem;
+  margin: 0 5rem;
+  padding: var(--spacing-lg);
 }
 
 .name {
-  font: var(--mat-sys-headline-large);
+  font: var(--mat-sys-headline-small);
   margin-bottom: 0.5rem;
+  font-weight: var(--font-weight-medium);
 }
 
 .role {
   font: var(--mat-sys-title-medium);
-  font-weight: normal;
+  font-weight: var(--font-weight-normal);
 }
 .contact-info {
   display: flex;

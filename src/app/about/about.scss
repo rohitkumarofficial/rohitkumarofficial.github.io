@@ -1,0 +1,24 @@
+mat-card {
+  margin: 0 5rem;
+  padding: var(--spacing-lg);
+
+  h2 {
+    font-size: var(--text-xl);
+    margin-bottom: var(--spacing-md);
+    font-weight: var(--font-weight-medium);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    mat-icon {
+      color: var(--mat-sys-primary);
+    }
+  }
+
+  p {
+    --tw-leading: var(--leading-relaxed);
+    line-height: var(--leading-relaxed);
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-normal);
+    color: var(--mat-sys-on-surface-variant);
+  }
+}

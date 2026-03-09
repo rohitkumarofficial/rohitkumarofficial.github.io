@@ -1,0 +1,9 @@
+@if (profile()) {
+  <mat-card appearance="outlined">
+    <h2>
+       <mat-icon>person</mat-icon>
+         About Me
+    </h2>
+    <p>{{ profile().summary }}</p>
+  </mat-card>
+}
