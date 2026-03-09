@@ -8,9 +8,7 @@ import { Data } from '../services/data';
   imports: [MatToolbarModule, MatButtonModule, MatIconModule],
   templateUrl: './header.html',
   styleUrl: './header.scss',
-  host: {
-   
-  }
+  host: {},
 })
 export class Header {
   private dataService = inject(Data);

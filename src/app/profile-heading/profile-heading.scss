@@ -1,0 +1,48 @@
+mat-card {
+  margin: 2rem 5rem;
+  padding: 1rem;
+}
+
+.name {
+  font: var(--mat-sys-headline-large);
+  margin-bottom: 0.5rem;
+}
+
+.role {
+  font: var(--mat-sys-title-medium);
+  font-weight: normal;
+}
+.contact-info {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    mat-icon {
+      color: var(--mat-sys-primary);
+    }
+
+    span {
+      font: var(--mat-sys-body-medium);
+    }
+  }
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  mat-icon {
+    color: var(--mat-sys-primary);
+  }
+
+  span {
+    font: var(--mat-sys-body-medium);
+  }
+}
