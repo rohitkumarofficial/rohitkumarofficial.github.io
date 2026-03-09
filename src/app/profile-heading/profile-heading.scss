@@ -12,6 +12,7 @@ mat-card {
 .role {
   font: var(--mat-sys-title-medium);
   font-weight: var(--font-weight-normal);
+  color: var(--mat-sys-on-surface-variant);
 }
 .contact-info {
   display: flex;
@@ -30,6 +31,7 @@ mat-card {
 
     span {
       font: var(--mat-sys-body-medium);
+      color: var(--mat-sys-on-surface-variant);
     }
   }
 }
