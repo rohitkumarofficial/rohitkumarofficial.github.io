@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { Data } from '../services/data';
 @Component({
   selector: 'app-profile-heading',
   imports: [MatCardModule, MatIconModule, MatButtonModule],
@@ -9,5 +10,6 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './profile-heading.scss',
 })
 export class ProfileHeading {
-
+  private dataService = inject(Data);
+  profile = computed(() => this.dataService.resumeDetails());
 }
