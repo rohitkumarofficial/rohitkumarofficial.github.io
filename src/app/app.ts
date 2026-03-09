@@ -6,9 +6,10 @@ import { ProfileHeading } from './profile-heading/profile-heading';
 import { MatCardModule } from '@angular/material/card';
 import { About } from './about/about';
 import { Experience } from './experience/experience';
+import { Education } from './education/education';
 @Component({
   selector: 'app-root',
-  imports: [Header, ProfileHeading, MatCardModule, About, Experience],
+  imports: [Header, ProfileHeading, MatCardModule, About, Experience, Education],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })

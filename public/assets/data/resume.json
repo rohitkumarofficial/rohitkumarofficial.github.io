@@ -141,6 +141,31 @@
       "skills": ["HTML5", "CSS3", "JavaScript", "WordPress"]
     }
   ],
-  "skills": [],
-  "education": []
+  "education": [
+    {
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "field": "Computer Science",
+      "institution": "Administrative Management College",
+      "location": "Bangalore, India",
+      "year": "June 2016",
+      "score": "70% aggregate"
+    },
+    {
+      "degree": "Higher Secondary (12th)",
+      "field": "Commerce",
+      "institution": "Tagore Shikshan Sansthan",
+      "location": "Kuchaman City",
+      "year": "May 2011",
+      "score": "78.56% aggregate"
+    },
+    {
+      "degree": "Secondary School (10th)",
+      "field": null,
+      "institution": "S.N.B.S.N",
+      "location": "Salemabad",
+      "year": "June 2009",
+      "score": "67% aggregate"
+    }
+  ],
+  "skills": []
 }
