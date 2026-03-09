@@ -8,9 +8,10 @@ import { About } from './about/about';
 import { Experience } from './experience/experience';
 import { Education } from './education/education';
 import { Skills } from './skills/skills';
+import { Footer } from './footer/footer';
 @Component({
   selector: 'app-root',
-  imports: [Header, ProfileHeading, MatCardModule, About, Experience, Education, Skills],
+  imports: [Header, ProfileHeading, MatCardModule, About, Experience, Education, Skills, Footer],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
