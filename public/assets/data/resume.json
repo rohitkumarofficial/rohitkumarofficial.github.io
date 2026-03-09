@@ -167,5 +167,74 @@
       "score": "67% aggregate"
     }
   ],
-  "skills": []
+  "skills": [
+    {
+      "category": "Frontend",
+      "icon": "code",
+      "items": [
+        "Angular (v12–18+)",
+        "TypeScript",
+        "JavaScript",
+        "RxJS",
+        "NgRx",
+        "Angular Signals",
+        "HTML5",
+        "CSS3",
+        "SCSS"
+      ]
+    },
+    {
+      "category": "Architecture",
+      "icon": "account_tree",
+      "items": [
+        "Micro-Frontend",
+        "Nx Monorepo",
+        "Module Federation",
+        "Standalone Components",
+        "Design Patterns"
+      ]
+    },
+    {
+      "category": "Backend",
+      "icon": "dns",
+      "items": [".NET Core", "REST APIs", "OData"]
+    },
+    {
+      "category": "Testing",
+      "icon": "bug_report",
+      "items": ["Jest", "Playwright", "Unit Testing", "E2E Testing"]
+    },
+    {
+      "category": "Tools & DevOps",
+      "icon": "build",
+      "items": ["Git", "CI/CD", "Webpack", "Vite", "npm", "yarn"]
+    },
+    {
+      "category": "Performance",
+      "icon": "speed",
+      "items": [
+        "Lazy Loading",
+        "OnPush Strategy",
+        "Bundle Optimization",
+        "Code Splitting",
+        "Zoneless Change Detection"
+      ]
+    },
+    {
+      "category": "Data & UI",
+      "icon": "bar_chart",
+      "items": ["DevExtreme", "Angular Material", "Chart.js", "D3.js"]
+    },
+    {
+      "category": "Practices",
+      "icon": "groups",
+      "items": [
+        "Agile/Scrum",
+        "Code Reviews",
+        "Technical Mentorship",
+        "Architecture Reviews",
+        "Stakeholder Communication"
+      ]
+    }
+  ]
 }

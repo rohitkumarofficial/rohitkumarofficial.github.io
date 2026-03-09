@@ -1,0 +1,26 @@
+@if (skills().length > 0) {
+  <mat-card appearance="outlined">
+    <h2>
+      <mat-icon>code</mat-icon>
+      Skills & Technologies
+    </h2>
+
+    <div class="skills-grid">
+      @for (group of skills(); track group.category) {
+        <div class="skill-card">
+          <div class="skill-header">
+            <span class="skill-icon">
+              <mat-icon>{{ group.icon }}</mat-icon>
+            </span>
+            <h3 class="skill-category">{{ group.category }}</h3>
+          </div>
+          <div class="skill-chips">
+            @for (item of group.items; track item) {
+              <span class="chip">{{ item }}</span>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </mat-card>
+}
