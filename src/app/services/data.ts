@@ -22,4 +22,8 @@ export class Data {
         }),
       );
   }
+
+  getResumeFile() {
+    return this.httpClient.get(environment.resumeUrl, { responseType: 'blob' });
+  }
 }

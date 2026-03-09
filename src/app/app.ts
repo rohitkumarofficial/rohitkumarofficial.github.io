@@ -1,5 +1,4 @@
-import { Component, computed, inject, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, computed, inject } from '@angular/core';
 import { Header } from './header/header';
 import { Data } from './services/data';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
@@ -7,7 +6,7 @@ import { ProfileHeading } from './profile-heading/profile-heading';
 import { MatCardModule } from '@angular/material/card';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, ProfileHeading, MatCardModule],
+  imports: [Header, ProfileHeading, MatCardModule],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
